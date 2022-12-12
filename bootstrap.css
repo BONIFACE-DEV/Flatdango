@@ -303,10 +303,6 @@ svg {
   vertical-align: middle;
 }
 
-table {
-  caption-side: bottom;
-  border-collapse: collapse;
-}
 
 caption {
   padding-top: 0.5rem;
@@ -315,10 +311,7 @@ caption {
   text-align: left;
 }
 
-th {
-  text-align: inherit;
-  text-align: -webkit-match-parent;
-}
+
 
 thead,
 tbody,
@@ -10855,24 +10848,4 @@ textarea.form-control-lg {
   .d-print-grid {
     display: grid !important;
   }
-  .d-print-table {
-    display: table !important;
-  }
-  .d-print-table-row {
-    display: table-row !important;
-  }
-  .d-print-table-cell {
-    display: table-cell !important;
-  }
-  .d-print-flex {
-    display: flex !important;
-  }
-  .d-print-inline-flex {
-    display: inline-flex !important;
-  }
-  .d-print-none {
-    display: none !important;
-  }
-}
 
-/*# sourceMappingURL=bootstrap.css.map */
