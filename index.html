@@ -1,90 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap.css">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <title>Flatdango</title>
 </head>
-
 <body>
-
-    
-
-    <nav class="navbar bg-dark">
-        <div class="container-fluid text-bg-dark d-flex justify-content-center">
-            <h2 class="text-light" id="headTitle">FLATDANGO MOVIE ARENA</h2>
-
+    <header> 
+        <h1>FLATDANGO MOVIE ARENA</h1>
+    </header>
+    <div class="row">
+        <div class="column">
+            <div id="movie-menu">
+                <h2>Your Favorite Movies</h2>
+                <ul id="films">
+                  <li class="filmItem">PlaceHolder li</li>
+                </ul>
+              </div>
 
 
         </div>
-
-        <div class="container-fluid text-bg-dark d-flex justify-content-center">
-            <!-- <a class="navbar-brand text-light">FLATDANGO</a> -->
-            <h4 class="text-light" id="descript">
+        <div class="column">
+            <div id="movie-display">
+                <h3 id="movie-title" class="movieTitle">Movie Title</h3>
+                <img
+                  id="movie-poster"
+                  src=""
+                  alt="Movie Poster"
+                />
+                
+              </div>
         </div>
-
-    </nav>
-
-
-
-    <div class="container mt-5" id="main-container">
-        <div class="row" id="film-details">
-            <div class="row mt-3" id="">
-
-
-                <div class="card col-4">
-
-
-
-                    <div>
-                        <h2 id="showingTitle">Available Movies</h2>
-                        <ul class="list-group" id="showingMovie">
-
-                        </ul>
-                    </div>
-
-                    <div>
-                        <ul id="soldOut">
-
-                        </ul>
-                    </div>
-
-                </div>
-
-
-                <div class="card col-8">
-                    <h4 class="card-title" id="filmTitle">Django Unchained</h4>
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                        alt="Film details" id="poster">
-                    <p id="movieDescription">Lorem ipsum she said its not available to do what she wants to do when she
-                        has to</p>
-
-                    <ul class="d-flex justify-content-center me-2" id="mviedet">
-                        <li class="border border-success rounded me-2"  id="runtime"><span class="border-success me-2">Runtime:</span> 108 minutes</li>
-                        <li class="border border-success rounded me-2" id="showtime">Showtime: 04:16PM</li>
-                        <li class="border border-success rounded me-2" id="ticketsAvailable">Available Tickets 67</li>
-                    </ul>
-
-                    <button type="button" class="btn btn-warning" id="buyTicket">Buy Ticket</button>
-
-
-                </div>
-            </div>
-
+        <div class="column">
+            <h2 id="moreinfo">Buy Your Ticket</h2>
+            <section>
+               <div id="description" class="desciption">Description</div>
+                <div id="showtime" class="showTime">showtime</div>
+                <div id="runtime" class="runTime">runtime</div>
+                <div id="ticket-counter"></div>
+                <div id="tickets-rmn">Tickets remaining</div>
+              </section>
+              <button id="buy-ticket">Buy Ticket</button>
+              <script type="text/javascript" src="index.js"></script
+                  
         </div>
-    </div>
-
-
-    <script type="text/javascript" src="bootstrap.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-    <!-- <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script> -->
-    <script type="text/javascript" src="index.js"></script>
-
+      </div>
 </body>
-
 </html>
